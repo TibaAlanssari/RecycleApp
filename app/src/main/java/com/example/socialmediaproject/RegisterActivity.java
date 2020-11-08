@@ -101,6 +101,6 @@ public class RegisterActivity extends AppCompatActivity {
         Intent setupIntent = new Intent(RegisterActivity.this, SetupActivity.class);
         setupIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
         startActivity(setupIntent);
-        finish(); 
+        finish();
     }
 }
