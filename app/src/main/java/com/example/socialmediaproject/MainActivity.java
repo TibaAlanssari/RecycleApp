@@ -78,6 +78,15 @@ public class MainActivity extends AppCompatActivity {
         finish();
     }
 
+    private void SendUserToLearnMoreActivity() {
+        // moves user from one activity to another
+        Intent loginIntent = new Intent (MainActivity.this, LearnMoreActivity.class);
+
+        loginIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK| Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(loginIntent);
+        finish();
+    }
+
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if(actionBarDrawerToggle.onOptionsItemSelected(item)){
@@ -109,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.learn_more:
-                Toast.makeText(this, "Learn More", Toast.LENGTH_SHORT).show();
+                SendUserToLearnMoreActivity();
                 break;
 
             case R.id.nav_Logout:
