@@ -19,12 +19,12 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        //  NeedNewAccountLink = (TextView) findViewById(R.id.register_account_link);
-        // UserEmail = (EditText) findViewById(R.id.login_email);
-        // UserPassword =(EditText) findViewById(R.id.login_password);
-        // LoginButton = (Button) findViewById(R.id.login_button);
+          NeedNewAccountLink = (TextView) findViewById(R.id.register_account_link);
+         UserEmail = (EditText) findViewById(R.id.login_email);
+         UserPassword =(EditText) findViewById(R.id.login_password);
+         LoginButton = (Button) findViewById(R.id.login_button);
 
-     /*   NeedNewAccountLink.setOnClickListener(new View.OnClickListener() {
+       NeedNewAccountLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 SendUsetToRegisterActivity();
@@ -35,6 +35,6 @@ public class LoginActivity extends AppCompatActivity {
     private void SendUsetToRegisterActivity() {
         Intent registerIntent = new Intent (LoginActivity.this, RegisterActivity.class);
         startActivity(registerIntent);
-    } */
     }
+    
 }
