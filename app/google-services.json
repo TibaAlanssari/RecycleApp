@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "917827683181",
+    "firebase_url": "https://recyclmedia-cb5e3.firebaseio.com",
+    "project_id": "recyclmedia-cb5e3",
+    "storage_bucket": "recyclmedia-cb5e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917827683181:android:9e9ef8f719ce32edf4d064",
+        "android_client_info": {
+          "package_name": "com.example.socialmediaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917827683181-9cphb42utjvpnier1u7gumg52dohi5mf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXDfV0K_pvEOOWh0tICVvMyEKRrKGCpC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917827683181-9cphb42utjvpnier1u7gumg52dohi5mf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
