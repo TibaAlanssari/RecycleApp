@@ -20,6 +20,7 @@
         android:layout_marginHorizontal="50dp"
         android:layout_marginBottom="10dp"
         android:text="username"
+        android:textStyle="bold"
         android:textColor="@color/cardview_light_background"
         android:textSize="16sp" />
 
