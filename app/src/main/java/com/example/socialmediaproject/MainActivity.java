@@ -108,8 +108,8 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Messages", Toast.LENGTH_SHORT).show();
                 break;
 
-            case R.id.nav_settings:
-                Toast.makeText(this, "Settings", Toast.LENGTH_SHORT).show();
+            case R.id.learn_more:
+                Toast.makeText(this, "Learn More", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.nav_Logout:
