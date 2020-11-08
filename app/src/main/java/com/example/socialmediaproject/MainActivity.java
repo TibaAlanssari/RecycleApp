@@ -24,20 +24,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-      /*  drawerLayout = (DrawerLayout)  findViewById(R.id.adjust_height); // to be fixed later
-        navigationView = (NavigationView)findViewById(R.id.adjust_height); // to be fixed later
+        drawerLayout = (DrawerLayout)  findViewById(R.id.drawable_layout);
+        navigationView = (NavigationView)findViewById(R.id.navigation_view); // to be fixed later
         View navView = navigationView.inflateHeaderView(R.layout.navigation_header);
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                //UserMenuSelector(item); to be added later
+                UserMenuSelector(item);
                 return false;
             }
         });
     }
 
-    /*private void UserMenuSelector(MenuItem item) {
+    private void UserMenuSelector(MenuItem item) {
         switch(item.getItemId()){
             case R.id.nav_profile:
                 Toast.makeText(this, "Profile", Toast.LENGTH_SHORT).show();
@@ -66,6 +66,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.nav_Logout:
                 Toast.makeText(this, "Logout", Toast.LENGTH_SHORT).show();
                 break;
-        } */
+        }
     }
 }
